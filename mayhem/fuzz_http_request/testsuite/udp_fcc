@@ -1,0 +1,5 @@
+GET /udp/239.1.1.1:5000?fcc=1.2.3.4:15970&fcc-type=telecom HTTP/1.1
+Host: router.lan:5140
+User-Agent: VLC/3.0
+X-Forwarded-For: 10.0.0.2
+

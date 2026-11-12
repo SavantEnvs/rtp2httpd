@@ -1,0 +1,7 @@
+GET /playlist.m3u?r2h-token=s3cret HTTP/1.1
+Host: router.lan
+Cookie: a=b; r2h-token=s3cret
+If-None-Match: "abc"
+X-Forwarded-Host: tv.example.org
+X-Forwarded-Proto: https
+

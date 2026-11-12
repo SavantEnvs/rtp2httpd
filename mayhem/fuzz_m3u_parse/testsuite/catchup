@@ -1,0 +1,3 @@
+#EXTM3U x-tvg-url="http://epg.example/e.xml.gz"
+#EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" group-title="CCTV" catchup="default" catchup-source="rtsp://10.0.0.50:554/catchup?playseek={utc:YmdHMS}-{utcend:YmdHMS}",CCTV-2
+rtp://239.1.1.2:5002

@@ -1,0 +1,5 @@
+GET /rtsp/10.0.0.50:554/ch1?playseek=20240101120000-20240101130000&r2h-seek-offset=30 HTTP/1.1
+Host: 192.168.1.1:5140
+Accept: */*
+Connection: keep-alive
+

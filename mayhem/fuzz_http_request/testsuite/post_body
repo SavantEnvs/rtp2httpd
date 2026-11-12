@@ -1,0 +1,6 @@
+POST /api/reload HTTP/1.1
+Host: router.lan
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 20
+
+r2h-token=s3cret&x=1

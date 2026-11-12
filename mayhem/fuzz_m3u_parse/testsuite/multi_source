@@ -1,0 +1,8 @@
+#EXTM3U
+#EXTINF:-1 tvg-logo="http://x/l.png",Multi
+rtp://239.1.1.5:5000
+rtp://239.1.1.6:5000
+
+# comment
+#EXTINF:-1,Last
+http://host.example/live/last.m3u8

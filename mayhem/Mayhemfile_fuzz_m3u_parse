@@ -1,0 +1,10 @@
+project: savantenvs/rtp2httpd
+target: fuzz_m3u_parse
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_m3u_parse/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_m3u_parse
+    libfuzzer: true
+    timeout: 30
+    dictionary: /mayhem/mayhem/fuzz_m3u_parse/fuzz_m3u_parse.dict

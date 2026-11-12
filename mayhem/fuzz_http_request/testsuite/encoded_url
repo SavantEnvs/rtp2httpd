@@ -1,0 +1,4 @@
+GET /http/example.org/a%20b/c%2Fd?x=%41%42&y=%zz HTTP/1.1
+Host: h
+X-Request-Snapshot: 1
+

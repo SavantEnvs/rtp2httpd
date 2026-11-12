@@ -1,0 +1,22 @@
+# Prune the build context: the fuzz/selftest build reads only src/ and mayhem/ (CMakeLists.txt is kept for
+# reference). .git is kept: the image needs the full history.
+e2e
+docs
+web-ui
+node_modules
+**/node_modules
+build
+build-*
+openwrt-support
+ikuai-support
+wireshark-support
+.agents
+icon_1024.png
+icon.svg
+package.json
+pnpm-lock.yaml
+pnpm-workspace.yaml
+biome.json
+tsconfig.json
+pyproject.toml
+uv.lock

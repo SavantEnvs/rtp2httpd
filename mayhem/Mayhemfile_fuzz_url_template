@@ -1,0 +1,10 @@
+project: savantenvs/rtp2httpd
+target: fuzz_url_template
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_url_template/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_url_template
+    libfuzzer: true
+    timeout: 30
+    dictionary: /mayhem/mayhem/fuzz_url_template/fuzz_url_template.dict

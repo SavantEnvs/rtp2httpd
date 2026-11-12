@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="c1" group-title="News",CCTV-1
+rtp://239.1.1.1:5000
+#EXTINF:-1,Two
+rtsp://10.0.0.50:554/ch2

@@ -1,0 +1,6 @@
+OPTIONS /status HTTP/1.1
+Host: router.lan
+Origin: http://x.example
+Access-Control-Request-Method: GET
+Access-Control-Request-Headers: content-type
+
